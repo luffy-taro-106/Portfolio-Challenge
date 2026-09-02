@@ -1,0 +1,19 @@
+# Finesse x Citadel Round 2 - Portfolio Construction Challenge
+# Python 3.13. Install with:  pip install -r requirements.txt
+
+pandas==3.0.5
+numpy==2.5.2
+pyarrow==25.0.1          # parquet cache for the price panel
+
+yfinance==1.7.0          # adjusted daily closes for NSE equities and indices
+requests==2.34.2         # NSE index constituent CSVs
+curl_cffi==0.16.2        # yfinance transport
+
+scikit-learn==1.9.0
+lightgbm==4.7.0          # Strategy D
+scipy==1.18.1
+statsmodels==0.15.0
+
+matplotlib==3.11.1
+tabulate==0.10.0
+markdown==3.10.3         # REPORT.md -> HTML for the PDF build

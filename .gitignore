@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Cached raw data, reconstructible with `python src/data.py`
+data/cache/
+
+# Generated results
+outputs/
+
+.DS_Store
+.ipynb_checkpoints/
+
+# Organiser-provided source document; the deliverable is REPORT.pdf.
+Finesse_x_Citadel_Round_2_Guidelines.docx
